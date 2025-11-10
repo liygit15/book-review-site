@@ -1,0 +1,56 @@
+/* 全站统一字体 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Footer 基础样式 */
+header, footer {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 主内容区背景色 */
+main {
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+/* 标题颜色（可以调整） */
+h1 {
+    color: #2a5d9f;
+}
+
+h2 {
+    color: #6b3fa0;
+}
+
+h3 {
+    color: #a03f3f;
+}
+
+/* 书籍标题斜体 */
+.book-title {
+    font-style: italic;
+}
+
+/* 去掉 ul 的点 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 导航链接 hover 效果 */
+nav a:hover {
+    color: #ff6600;
+}
+
+/* 导航链接基础状态 */
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
